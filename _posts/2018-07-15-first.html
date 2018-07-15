@@ -1,7 +1,16 @@
+--- 
+layout: default 
+title: 你好，世界 
 ---
-layout: default
-title: 你好，世界
----
-<h2>{{ page.title }}</h2>
-<p>我的第一篇文章</p>
-<p>{{ page.date | date_to_string }}</p>
+<div class="prism-player" id="J_prismPlayer"></div>
+<script>
+var player = Aliplayer({ 
+    id: "J_prismPlayer", 
+    autoplay: true, 
+    width: "1920px", 
+    height: "1280px", 
+    vid: "a0633b0dfa37499ca5320624d19085ff", 
+    playauth: "客户调用接口生成", 
+    cover: ""
+});
+</script>
